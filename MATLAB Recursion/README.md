@@ -1,6 +1,7 @@
 # Collection of Algorithms (MATLAB)
 ## University of Bath, 1st Year, XX10190
 
+
 ##### Includes:
  - Merging and sorting of vectors
  - Recursive calculations
