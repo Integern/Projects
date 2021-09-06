@@ -15,10 +15,12 @@ This was my first foray into MATLAB and recursion - not massively complex or len
 I also learnt the importance of writing and running unit tests to ensure that ones code meets all base and edge cases.
 
 
+
 ##### Implementing the Lambda Calculus (2018/19) [Functional Programming]
 The Lambda Calculus is a system of mathematical logic for expressing computation. Definitely not a simple topic to understand, this project had me understand the lambda calculus on paper and then write an implementation in Haskell - which was pseudocode-esque but had capability for writing my own types. 
 
 This was one of my first links between the logic required in the Mathematical side of my degree and my coding skills for modules I took from the Computer Science department.
+
 
 
 ##### Linked Lists (2018/19) [Data Structures and Algorithms]
@@ -27,24 +29,43 @@ Being my first implementation of Java, I learnt about linked lists - having a ge
 This is the first time I became familiar with Object Orientated Programming (OOP) and subsequently fell in love with it!
 
 
+
 ##### String Manipulation & Social Networks (2018/19) [Data Structures and Algorithms]
 I learnt about string manipulation in Java, and how different methods of the string object use different computation even when giving the same output. This led us into analyzing the time complexity of a function and how important this is when dealing with large amounts of data.
 
 We also constructed a simple social network object which allowed a user to add/remove friends as well as search for friends using binary search. This was very useful as it showed me how to implement objects within objects.
 
 
+
 ##### Missionaries & Cannibals (2018/19) [Artificial Intelligence and Machine Learning]
 This was my first project relating to AI - was a swift but thorough introduction into Python. The Missionaries and Cannibals problem is a 'Toy Problem', a famous example being a farmer has to try transport 2 chickens and 1 fox across a river. I implemented breadth first search to generate all possible states from the current state (e.g. we could move a chicken or a fox across the river as a first move) to see which one was a valid move. This would eventually bring us a solution.
+
 
 
 ##### Eight Queens (2018/19) [Artificial Intelligence and Machine Learning]
 A quick project for how to position 8 queens on a chess board such that no queen can attack another queen. This implemented a hill-climbing search, which works by being able to give any given state a 'score' and moves to states with higher scores until a maximum is reached.
 
 
+
+##### Sudoku Solver (2018/19) [Artificial Intelligence and Machine Learning]
+This was an AI sudoku solver that finds solutions to sudokus by permuting the board and finding the most likely candidates that will give us a solution. The project had us try to create an efficient sudoku solver by showing the execution time for our code for easy and harder sudoko puzzles.
+
+
+
+##### Black Box (2018/19) [Artificial Intelligence and Machine Learning]
+This project was to create a classifier - we were given a training set to train our AI. I chose to use linear regression to train my classifier.
+
+To look at the perfomance of the fitted model I looked at *accuracy*, *precision* and *recall* - I was able to get these values from *training_data* by training on 4750 rows of data and testing on 250 rows of data. Accuracy is self explanatory - how many the fitted model got correct - precision is how correct the fitted model is - what's the chance that when it makes a prediction, that prediction is correct - and recall denotes how useful the model is - in the example of spam/ham emails, the recall denotes how many spam emails are correctly identified. When running this test I got Accuracy=93.2%, Precision=96.1%, Recall=91.1% - which is very good!
+
+I considered using Naive Bayes, but I wanted to try a different classifier and I didn't get it working as well as I could have in coursework 3 so I wanted to see if I could improve with something else. Could've used k-nearest neighbour, but there is 38 different features and it may have been difficult to find the optimum k.
+
+
+
 ##### Connect 3 (2018/19) [Artificial Intelligence and Machine Learning]
 A smaller version of Connect 4. This project had me use Q-Learning to teach an AI on how to optimally play Connect 3. It runs through many many games using random moves to where it gathers information on every possible state of the game. Depending on how 'useful' a certain state is to reaching a win, it gives states a certain 'score' in a Q-Matrix.
 
 After training, when playing against someone on any given state, the AI will make a move so the board gets taken to a state with the highest possible score.
+
 
 
 ##### Realistic Raytracer (2020/21) [Advanced Computer Graphics]
